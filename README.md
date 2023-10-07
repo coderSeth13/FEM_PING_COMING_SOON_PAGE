@@ -4,7 +4,7 @@
 
 #### Project links
 
-- Solution URL:
+- Solution URL: https://github.com/coderSeth13/FEM_PING_COMING_SOON_PAGE.git
 - Live Site URL:
 
 #### Social links
@@ -15,3 +15,4 @@
 - Github: https://github.com/coderSeth13?tab=repositories
 
 ### Screenshot
+![Screenshot 2023-10-07 at 23-50-47 Ping coming soon page](https://github.com/coderSeth13/FEM_PING_COMING_SOON_PAGE/assets/145410639/c60f5ea0-f4f7-4771-8687-7be634f778f3)
