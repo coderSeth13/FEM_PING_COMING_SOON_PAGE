@@ -30,6 +30,9 @@
 
     <!-- CSS  link-->
     <link rel="stylesheet" href="style.css" />
+
+    <!-- Js link -->
+    <script src="main.js" defer></script>
   </head>
   <body>
     <header>
@@ -46,12 +49,20 @@
 
         <p class="margin-top">Subscribe and get notified</p>
 
-        <form action="/" class="form | flex gap align-center margin-block-300">
-          <input
-            type="text"
-            placeholder="Your email address"
-            class="form__input"
-          />
+        <form
+          action="/"
+          class="form | flex gap align-center margin-block-300"
+          data-js-form
+        >
+          <div class="form__section flex">
+            <input
+              type="text"
+              placeholder="Your email address"
+              class="form__section-input"
+              data-js-input
+            />
+            <div class="error" data-js-error></div>
+          </div>
 
           <button class="btn">Notify Me</button>
         </form>

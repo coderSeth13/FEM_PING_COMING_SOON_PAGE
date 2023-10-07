@@ -147,6 +147,7 @@ header {
   background: var(--clr-primary-400);
   box-shadow: 0.75rem 1rem 2rem hsl(var(--clr-primary-hsl-200), 0.7);
 
+  align-self: start;
   cursor: pointer;
   border: none;
   outline: none;
@@ -170,10 +171,14 @@ header {
 }
 
 .form {
-  max-width: 45rem;
+  max-width: 42rem;
 }
 
-.form__input {
+.form__section {
+  flex: 1;
+}
+
+.form__section-input {
   border: 1px solid var(--clr-primary-200);
   outline: none;
 
@@ -181,6 +186,14 @@ header {
   padding-block: 0.95rem;
   padding-inline: 1.5rem;
   flex: 1;
+}
+
+.error {
+  color: var(--clr-secondary-400);
+  font-size: 0.85rem;
+  padding-inline: 1.5rem;
+  padding-block: 0.25rem;
+  font-style: italic;
 }
 
 .social-icon {
@@ -219,5 +232,9 @@ header {
     grid-template-areas:
       "Email"
       "Button";
+  }
+
+  .error {
+    margin-inline: auto;
   }
 }
